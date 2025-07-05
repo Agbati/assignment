@@ -17,8 +17,5 @@ temperature = weather_condition ["main"]["temp"]
 if temperature  <= 300.38:
     print(f"The weather is warm ")
 
-elif temperature <= 373.15:
-    print(f"the weather is hot")
-
 else:
-    print(f"no weather  changes here")
+    print(f"the weather is hot")
